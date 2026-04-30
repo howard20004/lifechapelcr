@@ -338,27 +338,23 @@ flex-direction:column;
 </section>
 
 
-<!-- CONTACT -->
-<section class="contact-section" id="contact">
-
-<div class="contact-header">
-<h2>Contact Us</h2>
-<p>Send us a message anytime. We will respond soon.</p>
-</div>
-
 <form action="https://formsubmit.co/mulbahhoward2004@gmail.com" method="POST" class="contact-form">
 
 <input type="text" name="name" placeholder="Your Name" required>
+
 <input type="email" name="email" placeholder="Your Email" required>
+
 <textarea name="message" placeholder="Your Message" required></textarea>
 
+<!-- Disable captcha -->
 <input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="thankyou.html">
+
+<!-- IMPORTANT: Use FULL GitHub URL -->
+<input type="hidden" name="_next" value="https://yourusername.github.io/yourrepo/thankyou.html">
 
 <button type="submit">Send Message</button>
 
 </form>
-
 </section>
 
 <!-- FOOTER -->
